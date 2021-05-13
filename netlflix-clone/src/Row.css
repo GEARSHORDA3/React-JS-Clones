@@ -1,0 +1,23 @@
+.row__posters{
+    display : flex; /* column to row*/
+    overflow-y: hidden;
+    overflow-x: scroll; /* add thse scroll in X axis */
+    padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar{ /* tell all browsers to not show the scroll bar*/
+    display: none;
+}
+
+.row__poster{
+    object-fit: contain; /* kepp size with zoom and zoom out */
+    width: 100%;
+    max-height: 200px;
+    margin-right: 10px;
+    transition: transform 450ms; /* effect to changes the size in slow way*/
+}
+
+.row__poster:hover{
+    transform: scale(1.08); /* Transform to scale to that number*/
+
+}
