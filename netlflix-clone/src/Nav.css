@@ -1,0 +1,23 @@
+.nav{
+    position:fixed; /*stick to the top of the screen while scroll down*/
+    top:0;
+    width: 100%; /*space beteewn*/
+    padding: 20px;
+    display: flex; /*needed to separate elements and set in row*/
+    justify-content: space-between; 
+    
+}
+
+.nav__logo{
+    position: fixed; /*with left help to */
+    left: 20px;
+    width: 80px;
+    object-fit: contain;/*save the aspect radio for tiny thing*/
+}
+
+.nav__avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;/*save the aspect radio for tiny thing*/
+}
